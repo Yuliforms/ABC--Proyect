@@ -15,6 +15,20 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style type="text/css">
+        #page-top .container .row.justify-content-center .col-lg-8.col-xl-7 .lead.mb-0 {
+	text-align: center;
+}
+        #page-top .container .row.justify-content-center .col-lg-8.col-xl-7 a {
+	text-align: center;
+}
+        #page-top .container .row.justify-content-center .col-lg-8.col-xl-7 a {
+	text-align: right;
+}
+        #page-top .container .row.justify-content-center .lead.mb-0 {
+	text-align: center;
+}
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -42,7 +56,7 @@
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Aprende con nosotros A B C</h1>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
@@ -121,14 +135,6 @@
         <!-- About Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">SOBRE NOSOTROS</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ms-auto">
@@ -139,71 +145,34 @@
                 
             </div>
         </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
+     
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">CONTACTANOS </h2>
+                <h3 class="page-section-heading text-center text-uppercase text-secondary mb-0">&nbsp; </h3>
+                <h3 class="page-section-heading text-center text-uppercase text-secondary mb-0">DESCARGA DE EJERCICIOS PDF </h3>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Form-->
                 <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                 
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
+                    <!--  <div class="col-lg-8 col-xl-7">
+                    <!-- Footer About Text-->
+                        <!--<h4 class="text-uppercase mb-4">Descarga pdf de ejercicios</h4>-->
+                        <p class="lead mb-0">         
+                            Ejercicios en pdf que puedes descargar e imprimir </p>
+                      <p class="lead mb-0">para practicar en el salón de clases </p>
+     
+                          
+                           <i class="fas fa-download me-2"></i> <a class="btn btn-xl btn-outline-light" href="https://drive.google.com/drive/folders/11I5kjBmVT9x8Kzp9SsCnQQJvJxKb_6Tw?usp=sharing"> Carpeta ejercicios</a>
+                        </p>
                     </div>
-                </div>
+              </div>
             </div>
-        </section>
+        </footer>
+          <!-- Contact Section-->
+        <section class="page-section" id="contact">					
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
@@ -224,11 +193,11 @@
                     </div>
                     <!-- Footer About Text-->
                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">Descarga pdf de ejercicios</h4>
+                        <h4 class="text-uppercase mb-4">Descarga pdf Lecturas</h4>
                         <p class="lead mb-0">       
                        <!-- 
                             Ejercicios en pdf que puedes descargar e imprimir para practicar en el salón de clases / -->
-                            <a class="btn btn-xl btn-outline-light" href="https://drive.google.com/drive/folders/1IG1hmx0n95K4wNnc_jky0w7TiXJUSKjy">Carpeta ejercicios</a>
+                            <a class="btn btn-xl btn-outline-light" href="https://drive.google.com/drive/folders/1_CErBgOW2YeJBe_pDsFK7Qp8UFD185kH">Carpeta lecturas</a>
                              <i class="fas fa-download me-2"></i>
                         </p>
                     </div>
@@ -266,7 +235,7 @@
                                     <p class="mb-4">En esta seccion se presentan las vocales, Las vocales son los cinco sonidos que se pronuncian en la boca abierta sin obstrucción de la lengua, los labios o los dientes.</p>
                                     <a href="vocales.html">
                                     <button class="btn btn-primary" href="vocales.html" data-bs-dismiss="modal">
-                                        Ir a pagina
+                                        Ir a página
                                     </button>
                                     </a>
                                 </div>
@@ -286,8 +255,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <a href="consonantes.html">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Consonantes</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">CONSONANTES</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -297,11 +265,12 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/consonantes.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Descripción de los ejercicios y objetivos de los mismos </p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Cerrar ventana
+                                    <p class="mb-4">En esta sección encontrarás las consonantes, que son todos aquellos sonidos no vocales producidos con la boca semicerrada,combinando movimientos específicos de lengua, labios y dientes frontales. </p>
+                                     <a href="consonantes.html">
+                                    <button class="btn btn-primary" href="consonantes.html" data-bs-dismiss="modal">
+                                        Ir a página
                                     </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -309,6 +278,7 @@
                 </div>
             </div>
         </div>
+       
         <!-- Portfolio Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -319,8 +289,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                     <a href="https://drive.google.com/drive/folders/1IG1hmx0n95K4wNnc_jky0w7TiXJUSKjy">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Videos de refuerzo</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">VIDEOS</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -330,11 +299,12 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/videos.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Videos que permitirán reforzar el uso de las letras del abecedario.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
+                                    <p class="mb-4"> En esta sección encontrarás una lista de reproducción con videos y canciones de las vocales y consonantes del abecedario </p>
+                                     <a href="https://www.youtube.com/playlist?list=PLWs9B-Yh3e08g8vEY01oSiFshv5FcQ0bS">
+                                    <button class="btn btn-primary" href="https://www.youtube.com/playlist?list=PLWs9B-Yh3e08g8vEY01oSiFshv5FcQ0bS" data-bs-dismiss="modal">
+                                        Ver videos
                                     </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -342,100 +312,11 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+     
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        
             </div>
         </div>
         <!-- Bootstrap core JS-->
